@@ -9,7 +9,7 @@ const router = createRouter({
     path: '/',
     name: 'home',
     component: HomeView
-   }, 
+   },
    {
     path: '/todo/:id/edit',
     name: 'todo-edit',

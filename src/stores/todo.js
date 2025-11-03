@@ -9,6 +9,7 @@ export const useTodoStore = defineStore('todo', {
     selectedTodo: {},
     statuses: ['Pending', 'Doing', 'Done']
   }),
+  // actions ใน store เก็บ Method ต่างๆไว้ (โดยที่ method คือ function)
   actions: {
 
     // load All
